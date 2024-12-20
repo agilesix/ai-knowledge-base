@@ -1,0 +1,19 @@
+name: Use case
+description: Propose a challenge or problem we can help you solve with AI
+type: Enhancement
+labels: ["idea"]
+body:
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: Problem statement
+      description: What challenge or problem would you like to solve?
+    validations:
+      required: true
+  - type: textarea
+    id: desired-behavior
+    attributes:
+      label: Ideas and suggestions
+      description: What tools or technology might help you solve this problem?
+    validations:
+      required: false

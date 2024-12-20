@@ -1,0 +1,26 @@
+name: Research
+description: Describe an AI topic or tool you'd like us to research
+type: Task
+labels: ["research"]
+body:
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: Topic
+      description: What's a topic or tool you'd like us to research?
+    validations:
+      required: true
+  - type: textarea
+    id: questions
+    attributes:
+      label: Questions
+      description: What questions do you have about this topic or tool?
+    validations:
+      required: false
+  - type: textarea
+    id: resources
+    attributes:
+      label: Relevant resources
+      description: Any relevant links or resources to get us started?
+    validations:
+      required: false
